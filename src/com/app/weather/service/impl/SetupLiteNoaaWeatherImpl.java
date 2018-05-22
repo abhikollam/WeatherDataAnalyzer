@@ -139,7 +139,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Day (DD format)");
 			day = scanner.nextLine();
 			CommonUtils.isNumberCheck(day);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day),Constants.LQID_PRES);
 			break;
 
@@ -156,7 +156,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Hour (HH format)");
 			hour = scanner.nextLine();
 			CommonUtils.isNumberCheck(hour);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day), Integer.parseInt(hour),Constants.LQID_PRES);
 			break;
 			
@@ -204,7 +204,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Day (DD format)");
 			day = scanner.nextLine();
 			CommonUtils.isNumberCheck(day);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day),Constants.WIND_SPEED);
 			break;
 
@@ -221,7 +221,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Hour (HH format)");
 			hour = scanner.nextLine();
 			CommonUtils.isNumberCheck(hour);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day), Integer.parseInt(hour),Constants.WIND_SPEED);
 			break;
 			
@@ -269,7 +269,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Day (DD format)");
 			day = scanner.nextLine();
 			CommonUtils.isNumberCheck(day);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day),Constants.DEW);
 			break;
 
@@ -286,7 +286,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Hour (HH format)");
 			hour = scanner.nextLine();
 			CommonUtils.isNumberCheck(hour);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day), Integer.parseInt(hour),Constants.DEW);
 			break;
 			
@@ -337,7 +337,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Day (DD format)");
 			day = scanner.nextLine();
 			CommonUtils.isNumberCheck(day);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day),Constants.SEA_LVL_PRE);
 			break;
 
@@ -354,7 +354,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Hour (HH format)");
 			hour = scanner.nextLine();
 			CommonUtils.isNumberCheck(hour);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day), Integer.parseInt(hour),Constants.SEA_LVL_PRE);
 			break;
 			
@@ -405,7 +405,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Day (DD format)");
 			day = scanner.nextLine();
 			CommonUtils.isNumberCheck(day);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day),Constants.AIR_TEMP);
 			break;
 
@@ -422,7 +422,7 @@ public class SetupLiteNoaaWeatherImpl implements SetupWeatherService {
 			System.out.println("Please Enter Hour (HH format)");
 			hour = scanner.nextLine();
 			CommonUtils.isNumberCheck(hour);
-			WeatherLiteDataProcessor.getAverageValue(Integer.parseInt(year), Integer.parseInt(month),
+			WeatherLiteDataProcessor.getMaxValue(Integer.parseInt(year), Integer.parseInt(month),
 					Integer.parseInt(day), Integer.parseInt(hour),Constants.AIR_TEMP);
 			break;
 			
