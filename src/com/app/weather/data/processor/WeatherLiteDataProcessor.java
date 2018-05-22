@@ -589,7 +589,6 @@ public class WeatherLiteDataProcessor {
 	
 	public static void getMaxValue(int year, int month, int day, int hour, String identifier) {
 
-		System.out.println("inside getMaxValue ");
 		boolean found = false;
 
 		Map<String, List<WeatherLiteData>> weatherDataMap = CommonEntity.getWeatherLiteDataMap();

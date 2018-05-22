@@ -2,7 +2,7 @@ package com.app.weather.constants;
 
 /*
  * Constant class maintains all the necessary constant values for the application
- * 
+ *  
  */
 public class Constants {
 
